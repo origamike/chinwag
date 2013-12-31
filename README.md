@@ -8,5 +8,7 @@ Inspired by [@omgstephlol](https://twitter.com/omgstephlol/status/41750760369527
 It's about 10 lines of CSS that tilt text left or right depending on which class you apply to your HTML elements.
 ### WHAT?
 It makes conversations [look like this](http://jsfiddle.net/wCDar/2/embedded/result/).
-###Oh. How do I use it?
+### Oh. How do I use it?
 I'm working on [that](http://origamike.github.io/chinwag).
+### OK, but you missed something obvious.
+Thanks! [Email](mailto:mike@tesserapps.com?subject=Chinwag%20issue) or [tweet](https://twitter.com/intent/tweet?text=@origamike%20chinwag%20question) it at me, and I'll fix it.
