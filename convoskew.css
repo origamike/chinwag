@@ -1,0 +1,14 @@
+.p1 {
+    -ms-transform:skew(-15deg);
+    /* IE 9 */
+    -webkit-transform:skew(-15deg);
+    /* Safari and Chrome */
+    transform:skew(-15deg);
+}
+.p2 {
+    -ms-transform:skew(15deg);
+    /* IE 9 */
+    -webkit-transform:skew(15deg);
+    /* Safari and Chrome */
+    transform:skew(15deg);
+}
