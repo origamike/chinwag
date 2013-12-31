@@ -28,6 +28,9 @@
 	font-family:Courier;
 	font-size:1.1em;
 }
+#lab {
+	display:none;
+}
 footer {
 	padding-top:1em;
 	font-size:0.8em;
