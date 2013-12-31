@@ -11,4 +11,4 @@ It makes conversations [look like this](http://jsfiddle.net/wCDar/2/embedded/res
 ### Oh. How do I use it?
 I'm working on [that](http://origamike.github.io/chinwag).
 ### OK, but you missed something obvious.
-Thanks! [Email](mailto:mike@tesserapps.com?subject=Chinwag%20issue) or [tweet](https://twitter.com/intent/tweet?text=@origamike%20chinwag%20question) it at me, and I'll fix it.
+Thanks! [Email](mailto:mike@tesserapps.com?subject=chinwag) or [tweet](https://twitter.com/intent/tweet?text=@origamike%20re:%20chinwag,%20) it at me, and I'll fix it.
