@@ -7,6 +7,6 @@ Inspired by [@omgstephlol](https://twitter.com/omgstephlol/status/41750760369527
 ### What is it?
 It's 10 lines of CSS that tilt text left or right depending on which class you apply to your HTML elements.
 ### WHAT?
-It makes conversations [look like this](http://jsfiddle.net/wCDar/2/).
+It makes conversations [look like this](http://jsfiddle.net/wCDar/2/embedded/result/).
 ###Oh. How do I use it?
 I'm working on that.
