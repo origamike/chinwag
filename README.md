@@ -9,4 +9,4 @@ It's about 10 lines of CSS that tilt text left or right depending on which class
 ### WHAT?
 It makes conversations [look like this](http://jsfiddle.net/wCDar/2/embedded/result/).
 ###Oh. How do I use it?
-I'm working on [that](http://origamike.github.io/convoskew).
+I'm working on [that](http://origamike.github.io/chinwag).
