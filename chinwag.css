@@ -12,3 +12,18 @@
     /* Safari and Chrome */
     transform:skew(15deg);
 }
+#example {
+	display:inline-block;
+	font-family:Helvetica;
+	font-size:1.1em;
+	float:left;
+	padding-left:1em;
+}
+#instructions,h1,#result,#lab,footer {
+clear:both;
+float:left;
+}
+.code {
+	font-family:Courier;
+	font-size:1.1em;
+}
