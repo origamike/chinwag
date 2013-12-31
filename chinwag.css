@@ -1,0 +1,54 @@
+.p1 {
+    -ms-transform:skew(-15deg);
+    /* IE 9 */
+    -webkit-transform:skew(-15deg);
+    /* Safari and Chrome */
+    transform:skew(-15deg);
+}
+.p2 {
+    -ms-transform:skew(15deg);
+    /* IE 9 */
+    -webkit-transform:skew(15deg);
+    /* Safari and Chrome */
+    transform:skew(15deg);
+}
+#example {
+	display:inline-block;
+	font-family:Helvetica;
+	font-size:1.1em;
+	float:left;
+	padding-left:1em;
+	padding-top:3em;
+}
+#instructions,h1,#result,#lab,button,footer {
+	clear:both;
+	float:left;
+}
+.code {
+	font-family:Courier;
+	font-size:1.1em;
+}
+footer {
+	padding-top:1em;
+	font-size:0.8em;
+	font-family:Helvetica;
+}
+.animatedskew {
+-webkit-animation: cssAnimation 2s infinite ease;
+-moz-animation: cssAnimation 2s infinite ease;
+-o-animation: cssAnimation 2s infinite ease;
+animation-direction:alternate;
+-webkit-animation-direction:alternate;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(1.0) skew(15deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(1.0) skew(-15deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(1.0) skew(15deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(1.0) skew(-15deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform:  rotate(0deg) scale(1.0) skew(15deg) translate(0px); }
+to { -o-transform:  rotate(0deg) scale(1.0) skew(-15deg) translate(0px); }
+}

@@ -1,19 +1,65 @@
 <DOCTYPE !html>
 <html>
 <head>
-<title>convoskew</title>
-<link rel="stylesheet" href="convoskew.css">
-<script src="convoskew.js"></script>
+<title>Chinwag</title>
+<link rel="stylesheet" href="chinwag.css">
+<script src="chinwag.js"></script>
 </head>
 <body>
-<p>Put a two-person conversation here. Press <strong>Enter</strong> between participants.</p>
+<h1>Chinwag does <div class="animatedskew">this</div> to dialogue:</h1>
+<div id="example">
+<p class="p1">Have fun stormin' da castle.</p>
+<p class="p2">Think it'll work?</p>
+<p class="p1">It'd take a miracle.</p>
+</div>
+<div id="instructions">
+<h2>Instructions</h2>
+<ol>
+<li><p><strong>Once for each page with dialogue,</strong><br>
+copy what's in the box and paste it into one of these places
+<ul>
+<li>your .css file</li>
+<li>between <span class="code">&lt;style&gt;</span> and <span class="code">&lt;/style&gt;</span> tags in your .html file's <span class="code">&lt;header&gt;</span></li>
+</ul></p>
+<textarea rows=11 cols=32 readonly="true">
+.p1 {
+    -ms-transform:skew(-15deg);
+    -webkit-transform:skew(-15deg);
+    transform:skew(-15deg);
+}
+.p2 {
+    -ms-transform:skew(15deg);
+    -webkit-transform:skew(15deg);
+    transform:skew(15deg);
+}
+</textarea></li>
+<li><p><strong>Each time you want to add dialogue to that page,</strong><br>
+use HTML elements with either the p1 or p2 class:</p>
+<p>When Person 1 talks, make the code look like this: <span class="code">&lt;p class="p1"&gt;*whatever Person 1 says*&lt;/p&gt;</span></p>
+<p>And when Person 2 talks, use <span class="code">&lt;p class="p2"&gt;*whatever Person 2 says*&lt;/p&gt;</span></p>
+<p>Feel free to copy and paste those snippets from <span class="code">&lt;</span> to <span class="code">&gt;</span> and replace everything from <span class="code">*</span> to <span class="code">*</span> with your words, if that's easier than adding classes to HTML elements.</p>
+</li>
+<li><p><strong>Double-check</strong> that all of your brackets, quotation marks, and slashes are in the right places.</p></li>
+<li><p class="animatedskew"><strong>Enjoy</strong> some freshly skewed chinwags!<br><a target="_blank" href="mailto:mike@tesserapps.com?subject=convoskew question">Email</a> or <a target="_blank" href="https://twitter.com/intent/tweet?text=@origamike convoskew question: ">tweet</a> if I can help.</p></li>
+</ol>
+</div>
+<br><br><br>
+<div id="lab">
+<p><strong>EVERYTHING BELOW THIS LINE IS EXPERIMENTAL AND CURRENTLY BROKEN.</strong></p>
+<p>Type or paste a two-person conversation here. Press <strong>Enter</strong> between participants.</p>
 <p>You'll receive a swiftly tilted <del>planet</del> chunk of code to paste into your page.</p>
 <textarea autofocus placeholder="Convo goes here. Only 2 people can be involved." rows=20 cols=80></textarea>
 <br>
+<<<<<<< HEAD
 <button type="submit" onsubmit="skewConvo()">Eventually this will be useful.</button>
+=======
+<button id="submitbutton" type="submit" onclick="skewConvo()">Eventually this may be useful.</button>
+<noscript><div>Sorry! At the moment, chinwag requires JavaScript to do its thing,<br>but JavaScript isn't available in your browser right now.</div></noscript>
+>>>>>>> gh-pages
 <div id="result">
-<p class="p1">Think it'll work?</p>
-<p class="p2">It'd take a miracle.</p>
 </div>
+</div>
+<br>
+<footer>chinwag is an <a target="_blank" href="https://www.twitter.com/origamike">@origamike</a> learning experience inspired by <a target="_blank" href="https://twitter.com/omgstephlol/status/417507603695276032">@omgstephlol</a>.</footer>
 </body>
 </html>
