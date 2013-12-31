@@ -1,3 +1,3 @@
 function skewConvo() {
-document.getElementById("result").innerHTML="";
+document.getElementById('result').innerHTML="";
 }
